@@ -1,0 +1,48 @@
+@media (max-width: 576px) {
+  body {
+    font-size: 15px;
+  }
+
+  .home-page .hero-banner {
+    height: 1040px;
+  }
+
+  .home-page .hero-banner .title {
+    margin-bottom: 1rem;
+  }
+
+  .home-page .hero-banner .description {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .home-page .section-title {
+    font-size: 30px;
+  }
+
+  .equal-height .col-12 {
+    display: flex;
+    flex: 0 0 auto !important
+  }
+
+  .utility-item {
+    margin-bottom: 20px;
+  }
+
+  .hero-privacy .summary-privacy {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .equal-height .col-12 {
+    display: flex;
+    flex: 0 0 auto !important;
+  }
+
+  .utility-item {
+    margin-bottom: 20px;
+  }
+}

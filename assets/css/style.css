@@ -1,0 +1,322 @@
+@font-face {
+    font-family: "BeVietnamPro";
+    src: url(../fonts/BeVietnamPro-Regular.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "BeVietnamPro-Medium";
+    src: url(../fonts/BeVietnamPro-Medium.ttf) format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "BeVietnamPro-Bold";
+    src: url(../fonts/BeVietnamPro-Bold.ttf) format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "BeVietnamPro-Light";
+    src: url(../fonts/BeVietnamPro-Light.ttf) format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+body {
+    font-family: "BeVietnamPro";
+    font-weight: 400;
+    font-size: 14px;
+}
+
+strong {
+    font-family: "BeVietnamPro-Bold";
+}
+
+button {
+    font-size: 14px !important;
+}
+
+.logo {
+    height: 32px;
+    width: auto;
+    border-radius: 8px;
+}
+
+.navbar-brand span {
+    font-family: "BeVietnamPro-Bold";
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 8px;
+}
+
+.navbar-nav li {
+    margin: 0 15px;
+}
+
+.download-mobile-app {
+    padding: 8px 12px;
+    border-radius: 10px;
+    background: #167A55;
+    color: #e3f1ea !important;
+    text-decoration: none;
+    font-family: "BeVietnamPro-Medium";
+    transition: all .3s ease;
+}
+
+.download-mobile-app:hover {
+    color: #fff !important;
+    background: #044c2f;
+}
+
+/* .home-page {} */
+
+.home-page .hero-banner {
+    background: linear-gradient(to bottom, #e3f1ea 50%, #fff);
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+    height: 590px;
+    overflow-y: hidden;
+}
+
+.home-page .hero-banner .caption {
+    font-family: "BeVietnamPro-Medium";
+    padding: 5px 12px;
+    background: #D9EFE5;
+    border-radius: 12px;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.home-page .hero-banner .description {
+    width: 75%;
+}
+
+.home-page .hero-banner .title {
+    font-family: "BeVietnamPro-Bold";
+    font-size: 56px;
+    margin-bottom: 3rem;
+}
+
+.home-page .hero-banner .banner-image img {
+    border-top-left-radius: 58px;
+    border-top-right-radius: 58px;
+    box-shadow: 0 30px 80px rgba(0, 0, 0, 0.3);
+}
+
+.home-page .section-title {
+    font-size: 34px;
+    font-family: "BeVietnamPro-Bold";
+}
+
+.home-page .section-description {
+    font-size: 15px;
+}
+
+.home-page .app-utilities .utility-item .utility-icon img {
+    height: 55px;
+}
+
+.home-page .app-utilities .utility-item .utility-title {
+    font-size: 22px;
+    font-family: "BeVietnamPro-Bold";
+    margin-bottom: 15px;
+}
+
+.home-page .app-utilities .utility-item .utility-description {
+    font-size: 14px;
+    font-family: "BeVietnamPro-Light";
+    color: #5b6b65;
+}
+
+.home-page .app-utilities .utility-item {
+    transition: all .5s ease;
+}
+
+.home-page .app-utilities .utility-item:hover {
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.equal-height .col-12 {
+    display: flex;
+    flex: 1 1 0;
+}
+
+.intro-privacy {
+    background: #0b5a3f;
+    color: #ffffff;
+}
+
+.intro-privacy .privacy-policy-link:hover {
+    background-color: transparent !important;
+    text-decoration: underline;
+}
+
+.intro-privacy .app-check-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.intro-privacy .app-check-list ul li {
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 30px;
+}
+
+.intro-privacy .app-check-list ul li::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: url(../images/checklist-icon.png) no-repeat;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+}
+
+.privacy-page {
+    background: linear-gradient(to bottom, #e3f1ea 20%, #fff 80%);
+}
+
+.hero-privacy .breadcrumb {
+    text-align: left !important;
+    padding-top: 30px;
+    list-style-type: none;
+    color: #5b6b65;
+    font-size: 12px;
+}
+
+.hero-privacy h1 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-family: "BeVietnamPro-Bold";
+    font-size: 52px;
+}
+
+.hero-privacy .breadcrumb li {
+    padding-right: 8px;
+}
+
+.hero-privacy .breadcrumb li a {
+    text-decoration: none;
+    color: #212529;
+}
+
+.hero-privacy .summary-privacy {
+    width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    border-left: 3px solid #0b5a3f;
+    font-family: 14px;
+    margin-bottom: 50px;
+}
+
+.privacy-page h2 {
+    font-family: "BeVietnamPro-Bold";
+    font-size: 26px;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.privacy-page p {
+    font-family: "BeVietnamPro-Light";
+    /* font-size: 15px; */
+    line-height: 26px;
+    margin-bottom: 1rem;
+}
+
+.privacy-page ul {
+    margin-bottom: 1rem;
+}
+
+.privacy-page li {
+    margin-bottom: 10px;
+}
+
+.sidebar-privacy {
+    position: sticky;
+    /* width: 20%; */
+    top: 0;
+}
+
+.sidebar-privacy .list-group,
+.accordion-body .list-group {
+    margin-top: 15px;
+}
+
+.sidebar-privacy .list-group-item,
+.accordion-body .list-group-item {
+    padding-left: 0;
+}
+
+.sidebar-privacy .list-group-item,
+.accordion-body .list-group-item {
+    background-color: transparent !important;
+    border: none;
+    padding: 8px 10px;
+    border-radius: 5px !important;
+    font-family: "BeVietnamPro-Medium";
+}
+
+.sidebar-privacy .list-group-item a,
+.accordion-body .list-group-item a {
+    text-decoration: none;
+    color: #3b4f48;
+    display: block;
+}
+
+.sidebar-privacy .list-group-item.active,
+.accordion-body .list-group-item.active {
+    background-color: #D9EFE5 !important;
+
+}
+
+.sidebar-privacy .list-group-item.active a,
+.accordion-body .list-group-item.active a {
+    color: #0b5a3f !important;
+}
+
+.sidebar-privacy h4 {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #5b6b65;
+    font-family: "BeVietnamPro-Medium";
+}
+
+
+footer .footer-bottom a {
+    text-decoration: none;
+    font-family: "BeVietnamPro-Medium";
+    color: #212529;
+}
+
+footer .footer-bottom a:hover {
+    text-decoration: underline;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+summary {
+    list-style: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Xoay ngược mũi tên khi thẻ details ở trạng thái mở [open] */
+details[open] summary::after {
+    transform: rotate(-180deg) !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+    transform: none;
+}
